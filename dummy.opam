@@ -12,6 +12,7 @@ bug-reports:
   "https://github.com/nathanreb/dune-release-testing-with-generated-opam/issues"
 homepage:
   "https://github.com/nathanreb/dune-release-testing-with-generated-opam"
+doc: "https://nathanreb.github.io/dune-release-testing/doc"
 license: "BSD-2"
 dev-repo:
   "git+https://github.com/nathanreb/dune-release-testing-with-generated-opam.git"

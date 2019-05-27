@@ -6,6 +6,7 @@
 (authors "Nathan Rebours <nathan.p.rebours@gmail.com>")
 (maintainers "Nathan Rebours <nathan.p.rebours@gmail.com>")
 (source (github nathanreb/dune-release-testing-with-generated-opam))
+(documentation "https://nathanreb.github.io/dune-release-testing/doc")
 (package
   (name dummy)
   (synopsis "Some dummy package")
