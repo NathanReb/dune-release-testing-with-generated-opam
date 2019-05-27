@@ -1,3 +1,7 @@
+## unreleased
+
+- Use dune to generate opam file
+
 ## v0.1.0+test
 
 - Mention version in `dummy`'s output

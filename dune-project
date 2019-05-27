@@ -1,3 +1,15 @@
-(lang dune 1.9)
+(lang dune 1.10)
 (using fmt 1.1)
 (name dummy)
+(generate_opam_files true)
+(license BSD-2)
+(authors "Nathan Rebours <nathan.p.rebours@gmail.com>")
+(maintainers "Nathan Rebours <nathan.p.rebours@gmail.com>")
+(source (github nathanreb/dune-release-testing-with-generated-opam))
+(package
+  (name dummy)
+  (synopsis "Some dummy package")
+  (description "Test package please ignore")
+  (depends
+    (dune (and :build (>= 1.10.0)))
+    (ocaml (>= 4.04.2))))

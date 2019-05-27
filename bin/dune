@@ -1,2 +1,4 @@
 (executable
- (public_name dummy))
+ (name hello)
+ (public_name dummy-hello)
+ (libraries dummy))
